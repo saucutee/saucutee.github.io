@@ -4,4 +4,10 @@
   top: 3px;
 }
 
+.imgpost {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  height: 300px;
+}
 

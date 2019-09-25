@@ -3,27 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="apple-touch-icon" sizes="57x57" href="./ico/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="./ico/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="./ico/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="./ico/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="./ico/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="./ico/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="./ico/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="./ico/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./ico/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="./ico/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./ico/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="./ico/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./ico/favicon-16x16.png">
-<link rel="manifest" href="./ico/manifest.json">
+<link rel="apple-touch-icon" sizes="57x57" href="../ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../ico/favicon-16x16.png">
+<link rel="manifest" href="../ico/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="msapplication-TileImage" content="../ico/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
     <title>Sau Cutee</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link rel="stylesheet" href="../css/main.css">
-    <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
+    <link rel="stylesheet" href="../css/bulma-timeline.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </head>
   <body>
@@ -48,15 +49,100 @@
 
 
         <div class="column">
-          <nav class="breadcrumb" aria-label="breadcrumbs">
+          <section class="section" style="padding-top:0;">
+          <nav class="breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
             <ul>
-              <li><a href="/">Home</a></li>
+              <li><a href="/"><ion-icon name="home"></ion-icon> &nbsp;Home</a></li>
               <li class="is-active"><a href="/SL" aria-current="page">SecondLife</a></li>
             </ul>
           </nav>
+          </section>
           <section class="section" style="padding-top:0;">
           <h2 class="title is-3">Second Life <span class="tag is-danger is-normal is-rounded">SL</span></h2>
-          
+          <h3 class="subtitle">
+            <ion-icon name="person" class="icontitle"></ion-icon> &nbsp;My profile: <a href="https://my.secondlife.com/saucutee" target="_blank">https://my.secondlife.com/saucutee</a>
+          </h3>
+<div class="timeline">
+  <header class="timeline-header">
+    <span class="tag is-medium is-danger">Start</span>
+  </header>
+  <div class="timeline-item is-danger"></div>
+  <header class="timeline-header">
+    <span class="tag is-danger">2019</span>
+  </header>
+  <div class="timeline-item is-danger">
+    <div class="timeline-marker is-danger"></div>
+    <div class="timeline-content">
+      <p class="heading">September 2019</p>
+      <p>I've started to join Second Life on 17 September 2019</p>
+      <br/>
+      <p>
+        <img src="../img/SL_01.png">
+      </p>
+    </div>
+  </div>
+  <div class="timeline-item is-warning">
+    <div class="timeline-marker is-warning is-image is-32x32">
+      <img src="../img/img_0011.jpg">
+    </div>
+    <div class="timeline-content">
+      <p class="heading">Having fun</p>
+      <p>&#128513; &#129322;</p>
+    </div>
+  </div>
+  <div class="timeline-item is-danger">
+    <div class="timeline-marker is-danger is-icon">
+      <i class="fas fa-camera-retro"></i>
+    </div>
+    <div class="timeline-content">
+      <p class="heading">September 2019</p>
+      <img src="../img/Snapshot_001s.png" class="imgpost">
+      <img src="../img/Snapshot_004s2.png" class="imgpost">
+    </div>
+  </div>
+  <div class="timeline-item is-danger">
+    <div class="timeline-marker is-danger is-icon">
+      <i class="fas fa-camera-retro"></i>
+    </div>
+    <div class="timeline-content">
+      <p class="heading">September 2019</p>
+      <img src="../img/Snapshot_024s.png" class="imgpost">
+    </div>
+  </div>
+  <div class="timeline-item is-danger">
+    <div class="timeline-marker is-danger is-icon">
+      <i class="fas fa-camera-retro"></i>
+    </div>
+    <div class="timeline-content">
+      <p class="heading">September 2019</p>
+      <img src="../img/Snapshot_037s.png" class="imgpost">
+    </div>
+  </div>
+  <div class="timeline-item is-danger">
+    <div class="timeline-marker is-danger is-icon">
+      <i class="fas fa-camera-retro"></i>
+    </div>
+    <div class="timeline-content">
+      <p class="heading">September 2019</p>
+      <img src="../img/Snapshot_016s.png" class="imgpost">
+    </div>
+  </div>
+  <div class="timeline-item is-danger"></div>
+  <div class="timeline-item is-danger">
+    <div class="timeline-marker is-danger is-image is-32x32">
+      <span class="icon is-medium has-text-white"><ion-icon name="more" size="medium"></ion-icon></span>
+    </div>
+    <div class="timeline-content"></div>
+  </div>
+  <div class="timeline-item is-danger"></div>
+  <div class="timeline-item is-danger">
+    <div class="timeline-marker is-danger is-image is-48x48">
+      <span class="icon is-large has-text-white"><ion-icon name="more" size="large"></ion-icon></span>
+    </div>
+    <div class="timeline-content"></div>
+  </div>
+</div>
+
           
           </section>
 
