@@ -2,7 +2,6 @@
 
 #python -m http.server 9000
 
-livereload -p 9000
+livereload -p 8000
 
 #pip install livereload
-
